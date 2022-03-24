@@ -1,0 +1,18 @@
+body{
+  background-image: url("background.webp");
+}
+
+canvas {
+  animation-name: Canvas;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Canvas{
+  from{box-shadow: 1px 1px 38px magenta;}
+  to{box-shadow: 1px 1px 38px cyan;}
+}
+
+.btn-success:hover{
+  background-color: pink;
+}
